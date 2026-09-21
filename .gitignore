@@ -1,0 +1,17 @@
+/target
+**/*.rs.bk
+*.pdb
+
+# bindgen output and staged engine trees
+/bindings.rs
+engine-src/
+ai-src/
+.ccache/
+
+# build artefacts
+*.so
+*.dll
+*.dylib
+/build/
+
+.DS_Store
